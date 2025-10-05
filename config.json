@@ -1,0 +1,21 @@
+{
+  "database": {
+    "path": "db.sqlite3",
+    "backup_enabled": true,
+    "backup_interval": "daily"
+  },
+  "search": {
+    "default_limit": 10,
+    "highlight_enabled": true,
+    "search_mode": "like"
+  },
+  "extraction": {
+    "min_idea_length": 10,
+    "max_idea_length": 500,
+    "auto_tag": true
+  },
+  "demo": {
+    "sample_data": true,
+    "clear_db_on_start": false
+  }
+}

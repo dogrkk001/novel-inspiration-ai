@@ -1,0 +1,80 @@
+{
+  "llm": {
+    "openai": {
+      "provider": "openai",
+      "model_name": "gpt-3.5-turbo",
+      "api_key": "",
+      "api_base": null,
+      "max_tokens": 1000,
+      "temperature": 0.7,
+      "timeout": 30,
+      "extra_params": {}
+    },
+    "openai_gpt4": {
+      "provider": "openai",
+      "model_name": "gpt-4",
+      "api_key": "",
+      "api_base": null,
+      "max_tokens": 1000,
+      "temperature": 0.7,
+      "timeout": 30,
+      "extra_params": {}
+    },
+    "claude": {
+      "provider": "claude",
+      "model_name": "claude-3-sonnet-20240229",
+      "api_key": "",
+      "max_tokens": 1000,
+      "temperature": 0.7,
+      "timeout": 30,
+      "extra_params": {}
+    },
+    "qwen": {
+      "provider": "qwen",
+      "model_name": "qwen-turbo",
+      "api_key": "",
+      "api_base": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "max_tokens": 1000,
+      "temperature": 0.7,
+      "timeout": 30,
+      "extra_params": {}
+    },
+    "deepseek": {
+      "provider": "deepseek",
+      "model_name": "deepseek-chat",
+      "api_key": "",
+      "api_base": "https://api.deepseek.com/v1",
+      "max_tokens": 1000,
+      "temperature": 0.7,
+      "timeout": 30,
+      "extra_params": {}
+    },
+    "mock": {
+      "provider": "mock",
+      "model_name": "mock-llm",
+      "max_tokens": 1000,
+      "temperature": 0.7,
+      "timeout": 30,
+      "extra_params": {}
+    }
+  },
+  "database": {
+    "path": "db.sqlite3",
+    "backup_enabled": true,
+    "backup_interval": "daily"
+  },
+  "search": {
+    "default_limit": 10,
+    "highlight_enabled": true,
+    "search_mode": "like"
+  },
+  "extraction": {
+    "min_idea_length": 10,
+    "max_idea_length": 500,
+    "auto_tag": true
+  },
+  "demo": {
+    "sample_data": true,
+    "clear_db_on_start": false
+  }
+}
