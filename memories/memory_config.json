@@ -1,0 +1,11 @@
+{
+  "max_records": 1000,
+  "auto_backup": true,
+  "retention_days": 365,
+  "priority_weights": {
+    "critical": 4,
+    "high": 3,
+    "medium": 2,
+    "low": 1
+  }
+}
